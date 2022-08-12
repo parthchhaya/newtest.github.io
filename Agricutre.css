@@ -1,0 +1,1291 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bc2.jpg);
+}
+
+
+.con{
+
+    /* border: 3px solid red; */
+    width: 40rem;
+    padding-left: 350px;
+    
+}
+
+                    /* For Logo */
+
+        .logo{
+
+            display: inline-block;
+           
+        }
+
+
+                    /* For NavBars */
+
+.con li{
+
+    display: inline-block;
+    margin: 3px;
+    font-size: 30px;
+    padding: 4px;
+ 
+}
+
+
+
+   
+        .bt a{
+
+        position: relative;
+        display: inline-block;
+        color: #2196f3;
+        letter-spacing: 2px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+                    
+    .bt a:hover{
+                    
+            color: #255784;
+            background: #2195f398;
+            box-shadow: 0 0 10px #2195f388, 0 0 40px #2195f371, 0 0 80prgba(33, 149, 243, 0.322)f3,;
+            transition-delay: 1s;
+                    
+    }
+                    
+    .bt a span{
+                    
+        position: absolute;
+        display: block;
+    }
+                    
+    .bt a span:nth-child(1)
+    {
+                    
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent,#2196f3);
+    }
+                    
+                    
+        .bt a:hover span:nth-child(1)
+        {
+                    
+            left: 100%;
+            transition: 1s;
+                    
+            }
+                    
+        .bt a span:nth-child(3)
+        {
+                    
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent,#2196f3);
+        }
+                    
+                    
+        .bt a:hover span:nth-child(3)
+        {
+                    
+            right: 100%;
+            transition: 1s;
+            transition-delay: 00.5s;
+        }
+                    
+        .bt a span:nth-child(2)
+        {
+                    
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent,#2196f3);
+        }
+                    
+                    
+    .bt a:hover span:nth-child(2)
+    {
+                    
+        top: 100%;
+        transition: 1s;
+        transition-delay: 00.5s;
+    }
+                    
+    bt a span:nth-child(4)
+    {
+                    
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent,#2196f3);
+    }
+                    
+                    
+    .bt a:hover span:nth-child(4)
+    {
+                    
+        bottom: 100%;
+        transition: 1s;
+        transition-delay: 00.75s;
+    }
+      
+
+                                    /* For Pc Window */
+
+
+       
+    .main{
+
+        display: none;        
+    }                                
+
+    @media (max-width: 1400px) and (min-width: 1200px) {
+        
+                .main{
+
+                    display: block;
+                }
+
+
+            /* Product 1 */
+
+    .pro1{
+
+        /* border: 3px solid red; */
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .pro1 img{
+
+        margin-left: 450px;
+    
+    }
+    
+    .pro1 h1{
+
+        margin-top: 5px;
+        margin-left: 580px;
+        font-size: 35px;
+        animation-name: hed;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        color: hotpink;
+        border: 4px solid blue;
+        display: inline-block;
+        border-radius: 4px;
+    }
+
+        @keyframes hed {
+
+            0%{
+
+                border: 4px solid gold;
+                background-color: gold;
+            }
+            
+            40%{
+
+                border: 4px solid rgb(131, 223, 143);
+                background-color:rgba(131, 223, 143, 0.438);
+            }
+
+            80%{
+
+                border: 4px solid rgb(107, 187, 233);
+                background-color: rgba(107, 187, 233, 0.513);
+            }
+
+            100%{
+
+                border: 4px solid rgb(233, 168, 107);
+                background-color: rgba(233, 168, 107, 0.541);
+            }
+ 
+            
+        }
+
+
+    .pro1 p{
+
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(40, 4, 218, 0.72);
+    }
+
+    .pro1 a{
+
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 500px;
+        font-size: 35px;
+        animation-name: hed;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        color: hotpink;
+        border: 4px solid blue;
+        display: inline-block;
+        border-radius: 4px;
+    }
+    
+    .pro1 a:hover{
+
+        background-color: rgb(71, 42, 165);
+    }
+
+
+                        /* Product 2 */
+     
+                .product2{
+
+                    margin-top: 25px;
+                }
+
+                        .pro2{
+
+                            /* border: 3px solid red; */
+                            height: fit-content;
+                            width: fit-content;
+                        }
+                    
+                        .pro2 img{
+                    
+                            margin-left: 450px;
+                        
+                        }
+                        
+                        .pro2 h1{
+                    
+                            margin-top: 5px;
+                            margin-left: 580px;
+                            font-size: 35px;
+                            animation-name: hed;
+                            animation-duration: 5s;
+                            animation-iteration-count: infinite;
+                            color: hotpink;
+                            border: 4px solid blue;
+                            display: inline-block;
+                            border-radius: 4px;
+                        }
+                    
+                            @keyframes hed {
+                    
+                                0%{
+                    
+                                    border: 4px solid gold;
+                                    background-color: gold;
+                                }
+                                
+                                40%{
+                    
+                                    border: 4px solid rgb(131, 223, 143);
+                                    background-color:rgba(131, 223, 143, 0.438);
+                                }
+                    
+                                80%{
+                    
+                                    border: 4px solid rgb(107, 187, 233);
+                                    background-color: rgba(107, 187, 233, 0.513);
+                                }
+                    
+                                100%{
+                    
+                                    border: 4px solid rgb(233, 168, 107);
+                                    background-color: rgba(233, 168, 107, 0.541);
+                                }
+                     
+                                
+                            }
+                    
+                    
+                        .pro2 p{
+                    
+                            font-size: 25px;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: rgba(40, 4, 218, 0.72);
+                        }
+                    
+                        .pro2 a{
+                    
+                            text-decoration: none;
+                            margin-top: 5px;
+                            margin-left: 500px;
+                            font-size: 35px;
+                            animation-name: hed;
+                            animation-duration: 5s;
+                            animation-iteration-count: infinite;
+                            color: hotpink;
+                            border: 4px solid blue;
+                            display: inline-block;
+                            border-radius: 4px;
+                        }
+                        
+                        .pro2 a:hover{
+                    
+                            background-color: rgb(71, 42, 165);
+                        }
+
+
+                        /* Product 3 */
+          
+                        
+                        .product3{
+
+                            margin-top: 25px;
+                        }
+        
+                                .pro3{
+        
+                                    /* border: 3px solid red; */
+                                    height: fit-content;
+                                    width: fit-content;
+                                }
+                            
+                                .pro3 img{
+                            
+                                    margin-left: 450px;
+                                
+                                }
+                                
+                                .pro3 h1{
+                            
+                                    margin-top: 5px;
+                                    margin-left: 480px;
+                                    font-size: 35px;
+                                    animation-name: hed;
+                                    animation-duration: 5s;
+                                    animation-iteration-count: infinite;
+                                    color: hotpink;
+                                    border: 4px solid blue;
+                                    display: inline-block;
+                                    border-radius: 4px;
+                                }
+                            
+                                    @keyframes hed {
+                            
+                                        0%{
+                            
+                                            border: 4px solid gold;
+                                            background-color: gold;
+                                        }
+                                        
+                                        40%{
+                            
+                                            border: 4px solid rgb(131, 223, 143);
+                                            background-color:rgba(131, 223, 143, 0.438);
+                                        }
+                            
+                                        80%{
+                            
+                                            border: 4px solid rgb(107, 187, 233);
+                                            background-color: rgba(107, 187, 233, 0.513);
+                                        }
+                            
+                                        100%{
+                            
+                                            border: 4px solid rgb(233, 168, 107);
+                                            background-color: rgba(233, 168, 107, 0.541);
+                                        }
+                             
+                                        
+                                    }
+                            
+                            
+                                .pro3 p{
+                            
+                                    font-size: 25px;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                    color: rgba(40, 4, 218, 0.72);
+                                }
+                            
+                                .pro3 a{
+                            
+                                    text-decoration: none;
+                                    margin-top: 5px;
+                                    margin-left: 500px;
+                                    font-size: 35px;
+                                    animation-name: hed;
+                                    animation-duration: 5s;
+                                    animation-iteration-count: infinite;
+                                    color: hotpink;
+                                    border: 4px solid blue;
+                                    display: inline-block;
+                                    border-radius: 4px;
+                                }
+                                
+                                .pro3 a:hover{
+                            
+                                    background-color: rgb(71, 42, 165);
+                                }
+
+
+                        /* Product 4 */
+            
+    
+                        .product4{
+
+                            margin-top: 25px;
+                        }
+        
+                                .pro4{
+        
+                                    /* border: 3px solid red; */
+                                    height: fit-content;
+                                    width: fit-content;
+                                }
+                            
+                                .pro4 img{
+                            
+                                    margin-left: 450px;
+                                
+                                }
+                                
+                                .pro4 h1{
+                            
+                                    margin-top: 5px;
+                                    margin-left: 480px;
+                                    font-size: 35px;
+                                    animation-name: hed;
+                                    animation-duration: 5s;
+                                    animation-iteration-count: infinite;
+                                    color: hotpink;
+                                    border: 4px solid blue;
+                                    display: inline-block;
+                                    border-radius: 4px;
+                                }
+                            
+                                    @keyframes hed {
+                            
+                                        0%{
+                            
+                                            border: 4px solid gold;
+                                            background-color: gold;
+                                        }
+                                        
+                                        40%{
+                            
+                                            border: 4px solid rgb(131, 223, 143);
+                                            background-color:rgba(131, 223, 143, 0.438);
+                                        }
+                            
+                                        80%{
+                            
+                                            border: 4px solid rgb(107, 187, 233);
+                                            background-color: rgba(107, 187, 233, 0.513);
+                                        }
+                            
+                                        100%{
+                            
+                                            border: 4px solid rgb(233, 168, 107);
+                                            background-color: rgba(233, 168, 107, 0.541);
+                                        }
+                             
+                                        
+                                    }
+                            
+                            
+                                .pro4 p{
+                            
+                                    font-size: 25px;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                    color: rgba(40, 4, 218, 0.72);
+                                }
+                            
+                                .pro4 a{
+                            
+                                    text-decoration: none;
+                                    margin-top: 5px;
+                                    margin-left: 500px;
+                                    font-size: 35px;
+                                    animation-name: hed;
+                                    animation-duration: 5s;
+                                    animation-iteration-count: infinite;
+                                    color: hotpink;
+                                    border: 4px solid blue;
+                                    display: inline-block;
+                                    border-radius: 4px;
+                                }
+                                
+                                .pro4 a:hover{
+                            
+                                    background-color: rgb(71, 42, 165);
+                                }
+
+
+                                /* Product 5 */
+
+
+                                .product5{
+
+                                    margin-top: 25px;
+                                }
+                
+                                        .pro5{
+                
+                                            /* border: 3px solid red; */
+                                            height: fit-content;
+                                            width: fit-content;
+                                        }
+                                    
+                                        .pro5 img{
+                                    
+                                            margin-left: 450px;
+                                        
+                                        }
+                                        
+                                        .pro5 h1{
+                                    
+                                            margin-top: 5px;
+                                            margin-left: 580px;
+                                            font-size: 35px;
+                                            animation-name: hed;
+                                            animation-duration: 5s;
+                                            animation-iteration-count: infinite;
+                                            color: hotpink;
+                                            border: 4px solid blue;
+                                            display: inline-block;
+                                            border-radius: 4px;
+                                        }
+                                    
+                                            @keyframes hed {
+                                    
+                                                0%{
+                                    
+                                                    border: 4px solid gold;
+                                                    background-color: gold;
+                                                }
+                                                
+                                                40%{
+                                    
+                                                    border: 4px solid rgb(131, 223, 143);
+                                                    background-color:rgba(131, 223, 143, 0.438);
+                                                }
+                                    
+                                                80%{
+                                    
+                                                    border: 4px solid rgb(107, 187, 233);
+                                                    background-color: rgba(107, 187, 233, 0.513);
+                                                }
+                                    
+                                                100%{
+                                    
+                                                    border: 4px solid rgb(233, 168, 107);
+                                                    background-color: rgba(233, 168, 107, 0.541);
+                                                }
+                                     
+                                                
+                                            }
+                                    
+                                    
+                                        .pro5 p{
+                                    
+                                            font-size: 25px;
+                                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                            color:rgba(40, 4, 218, 0.72);
+                                        }
+                                    
+                                        .pro5 a{
+                                    
+                                            text-decoration: none;
+                                            margin-top: 5px;
+                                            margin-left: 500px;
+                                            font-size: 35px;
+                                            animation-name: hed;
+                                            animation-duration: 5s;
+                                            animation-iteration-count: infinite;
+                                            color: hotpink;
+                                            border: 4px solid blue;
+                                            display: inline-block;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .pro5 a:hover{
+                                    
+                                            background-color: rgb(71, 42, 165);
+                                        }                          
+
+
+                                        /* Product 6 */
+
+
+                                        .product6{
+
+                                            margin-top: 25px;
+                                        }
+                        
+                                                .pro6{
+                        
+                                                    /* border: 3px solid red; */
+                                                    height: fit-content;
+                                                    width: fit-content;
+                                                }
+                                            
+                                                .pro6 img{
+                                            
+                                                    margin-left: 450px;
+                                                
+                                                }
+                                                
+                                                .pro6 h1{
+                                            
+                                                    margin-top: 5px;
+                                                    margin-left: 460px;
+                                                    font-size: 35px;
+                                                    animation-name: hed;
+                                                    animation-duration: 5s;
+                                                    animation-iteration-count: infinite;
+                                                    color: hotpink;
+                                                    border: 4px solid blue;
+                                                    display: inline-block;
+                                                    border-radius: 4px;
+                                                }
+                                            
+                                                    @keyframes hed {
+                                            
+                                                        0%{
+                                            
+                                                            border: 4px solid gold;
+                                                            background-color: gold;
+                                                        }
+                                                        
+                                                        40%{
+                                            
+                                                            border: 4px solid rgb(131, 223, 143);
+                                                            background-color:rgba(131, 223, 143, 0.438);
+                                                        }
+                                            
+                                                        80%{
+                                            
+                                                            border: 4px solid rgb(107, 187, 233);
+                                                            background-color: rgba(107, 187, 233, 0.513);
+                                                        }
+                                            
+                                                        100%{
+                                            
+                                                            border: 4px solid rgb(233, 168, 107);
+                                                            background-color: rgba(233, 168, 107, 0.541);
+                                                        }
+                                             
+                                                        
+                                                    }
+                                            
+                                            
+                                                .pro6 p{
+                                            
+                                                    font-size: 25px;
+                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                    color: rgba(40, 4, 218, 0.72);
+                                                }
+                                            
+                                                .pro6 a{
+                                            
+                                                    text-decoration: none;
+                                                    margin-top: 5px;
+                                                    margin-left: 500px;
+                                                    font-size: 35px;
+                                                    animation-name: hed;
+                                                    animation-duration: 5s;
+                                                    animation-iteration-count: infinite;
+                                                    color: hotpink;
+                                                    border: 4px solid blue;
+                                                    display: inline-block;
+                                                    border-radius: 4px;
+                                                }
+                                                
+                                                .pro6 a:hover{
+                                            
+                                                    background-color: rgb(71, 42, 165);
+                                                }                                    
+
+
+                                            }
+
+                                          /* For Phone Window       */
+
+
+
+  @media (max-width: 300px) {
+
+    .main{
+
+        display: block;
+    }
+    
+
+                            /* For Nav Bar */
+
+ .con{
+
+    margin-left: -200px;
+ }                      
+
+
+                /* Product 1 */
+
+                .pro1{
+
+                    /* border: 3px solid red;s */
+                    height: fit-content;
+                    width: fit-content;
+                    margin-left: 150px;
+                }
+            
+                .pro1 img{
+            
+                    margin-left: 100px;
+                
+                }
+                
+                .pro1 h1{
+            
+                    margin-top: 5px;
+                    margin-left: 150px;
+                    font-size: 35px;
+                    animation-name: hed;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                    color: hotpink;
+                    border: 4px solid blue;
+                    display: inline-block;
+                    border-radius: 4px;
+                }
+            
+                    @keyframes hed {
+            
+                        0%{
+            
+                            border: 4px solid gold;
+                            background-color: gold;
+                        }
+                        
+                        40%{
+            
+                            border: 4px solid rgb(131, 223, 143);
+                            background-color:rgba(131, 223, 143, 0.438);
+                        }
+            
+                        80%{
+            
+                            border: 4px solid rgb(107, 187, 233);
+                            background-color: rgba(107, 187, 233, 0.513);
+                        }
+            
+                        100%{
+            
+                            border: 4px solid rgb(233, 168, 107);
+                            background-color: rgba(233, 168, 107, 0.541);
+                        }
+             
+                        
+                    }
+            
+            
+                .pro1 p{
+            
+                    font-size: 25px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: rgba(40, 4, 218, 0.72);
+                    text-align: justify;
+                    /* margin-left: 50px; */
+                }
+            
+                .pro1 a{
+            
+                    text-decoration: none;
+                    margin-top: 5px;
+                    margin-left: 150px;
+                    font-size: 35px;
+                    animation-name: hed;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                    color: hotpink;
+                    border: 4px solid blue;
+                    display: inline-block;
+                    border-radius: 4px;
+                }
+                
+                .pro1 a:hover{
+            
+                    background-color: rgb(71, 42, 165);
+                }
+            
+            
+                                    /* Product 2 */
+                 
+                            .product2{
+            
+                                margin-top: 25px;
+                                /* height: fit-content; */
+                                /* width: fit-content; */
+                                margin-left: 3s0px;
+                            }
+            
+                                    .pro2{
+            
+                                        /* border: 3px solid red; */
+                                        height: fit-content;
+                                        width: fit-content;
+                                    }
+                                
+                                    .pro2 img{
+                                
+                                        margin-left: 450px;
+                                    
+                                    }
+                                    
+                                    .pro2 h1{
+                                
+                                        margin-top: 5px;
+                                        margin-left: 580px;
+                                        font-size: 35px;
+                                        animation-name: hed;
+                                        animation-duration: 5s;
+                                        animation-iteration-count: infinite;
+                                        color: hotpink;
+                                        border: 4px solid blue;
+                                        display: inline-block;
+                                        border-radius: 4px;
+                                    }
+                                
+                                        @keyframes hed {
+                                
+                                            0%{
+                                
+                                                border: 4px solid gold;
+                                                background-color: gold;
+                                            }
+                                            
+                                            40%{
+                                
+                                                border: 4px solid rgb(131, 223, 143);
+                                                background-color:rgba(131, 223, 143, 0.438);
+                                            }
+                                
+                                            80%{
+                                
+                                                border: 4px solid rgb(107, 187, 233);
+                                                background-color: rgba(107, 187, 233, 0.513);
+                                            }
+                                
+                                            100%{
+                                
+                                                border: 4px solid rgb(233, 168, 107);
+                                                background-color: rgba(233, 168, 107, 0.541);
+                                            }
+                                 
+                                            
+                                        }
+                                
+                                
+                                    .pro2 p{
+                                
+                                        font-size: 25px;
+                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                        color: rgba(40, 4, 218, 0.72);
+                                    }
+                                
+                                    .pro2 a{
+                                
+                                        text-decoration: none;
+                                        margin-top: 5px;
+                                        margin-left: 500px;
+                                        font-size: 35px;
+                                        animation-name: hed;
+                                        animation-duration: 5s;
+                                        animation-iteration-count: infinite;
+                                        color: hotpink;
+                                        border: 4px solid blue;
+                                        display: inline-block;
+                                        border-radius: 4px;
+                                    }
+                                    
+                                    .pro2 a:hover{
+                                
+                                        background-color: rgb(71, 42, 165);
+                                    }
+            
+            
+                                    /* Product 3 */
+                      
+                                    
+                                    .product3{
+            
+                                        margin-top: 25px;
+                                    }
+                    
+                                            .pro3{
+                    
+                                                /* border: 3px solid red; */
+                                                height: fit-content;
+                                                width: fit-content;
+                                            }
+                                        
+                                            .pro3 img{
+                                        
+                                                margin-left: 450px;
+                                            
+                                            }
+                                            
+                                            .pro3 h1{
+                                        
+                                                margin-top: 5px;
+                                                margin-left: 480px;
+                                                font-size: 35px;
+                                                animation-name: hed;
+                                                animation-duration: 5s;
+                                                animation-iteration-count: infinite;
+                                                color: hotpink;
+                                                border: 4px solid blue;
+                                                display: inline-block;
+                                                border-radius: 4px;
+                                            }
+                                        
+                                                @keyframes hed {
+                                        
+                                                    0%{
+                                        
+                                                        border: 4px solid gold;
+                                                        background-color: gold;
+                                                    }
+                                                    
+                                                    40%{
+                                        
+                                                        border: 4px solid rgb(131, 223, 143);
+                                                        background-color:rgba(131, 223, 143, 0.438);
+                                                    }
+                                        
+                                                    80%{
+                                        
+                                                        border: 4px solid rgb(107, 187, 233);
+                                                        background-color: rgba(107, 187, 233, 0.513);
+                                                    }
+                                        
+                                                    100%{
+                                        
+                                                        border: 4px solid rgb(233, 168, 107);
+                                                        background-color: rgba(233, 168, 107, 0.541);
+                                                    }
+                                         
+                                                    
+                                                }
+                                        
+                                        
+                                            .pro3 p{
+                                        
+                                                font-size: 25px;
+                                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                color: rgba(40, 4, 218, 0.72);
+                                            }
+                                        
+                                            .pro3 a{
+                                        
+                                                text-decoration: none;
+                                                margin-top: 5px;
+                                                margin-left: 500px;
+                                                font-size: 35px;
+                                                animation-name: hed;
+                                                animation-duration: 5s;
+                                                animation-iteration-count: infinite;
+                                                color: hotpink;
+                                                border: 4px solid blue;
+                                                display: inline-block;
+                                                border-radius: 4px;
+                                            }
+                                            
+                                            .pro3 a:hover{
+                                        
+                                                background-color: rgb(71, 42, 165);
+                                            }
+            
+            
+                                    /* Product 4 */
+                        
+                
+                                    .product4{
+            
+                                        margin-top: 25px;
+                                    }
+                    
+                                            .pro4{
+                    
+                                                /* border: 3px solid red; */
+                                                height: fit-content;
+                                                width: fit-content;
+                                            }
+                                        
+                                            .pro4 img{
+                                        
+                                                margin-left: 450px;
+                                            
+                                            }
+                                            
+                                            .pro4 h1{
+                                        
+                                                margin-top: 5px;
+                                                margin-left: 480px;
+                                                font-size: 35px;
+                                                animation-name: hed;
+                                                animation-duration: 5s;
+                                                animation-iteration-count: infinite;
+                                                color: hotpink;
+                                                border: 4px solid blue;
+                                                display: inline-block;
+                                                border-radius: 4px;
+                                            }
+                                        
+                                                @keyframes hed {
+                                        
+                                                    0%{
+                                        
+                                                        border: 4px solid gold;
+                                                        background-color: gold;
+                                                    }
+                                                    
+                                                    40%{
+                                        
+                                                        border: 4px solid rgb(131, 223, 143);
+                                                        background-color:rgba(131, 223, 143, 0.438);
+                                                    }
+                                        
+                                                    80%{
+                                        
+                                                        border: 4px solid rgb(107, 187, 233);
+                                                        background-color: rgba(107, 187, 233, 0.513);
+                                                    }
+                                        
+                                                    100%{
+                                        
+                                                        border: 4px solid rgb(233, 168, 107);
+                                                        background-color: rgba(233, 168, 107, 0.541);
+                                                    }
+                                         
+                                                    
+                                                }
+                                        
+                                        
+                                            .pro4 p{
+                                        
+                                                font-size: 25px;
+                                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                color: rgba(40, 4, 218, 0.72);
+                                            }
+                                        
+                                            .pro4 a{
+                                        
+                                                text-decoration: none;
+                                                margin-top: 5px;
+                                                margin-left: 500px;
+                                                font-size: 35px;
+                                                animation-name: hed;
+                                                animation-duration: 5s;
+                                                animation-iteration-count: infinite;
+                                                color: hotpink;
+                                                border: 4px solid blue;
+                                                display: inline-block;
+                                                border-radius: 4px;
+                                            }
+                                            
+                                            .pro4 a:hover{
+                                        
+                                                background-color: rgb(71, 42, 165);
+                                            }
+            
+            
+                                            /* Product 5 */
+            
+            
+                                            .product5{
+            
+                                                margin-top: 25px;
+                                            }
+                            
+                                                    .pro5{
+                            
+                                                        /* border: 3px solid red; */
+                                                        height: fit-content;
+                                                        width: fit-content;
+                                                    }
+                                                
+                                                    .pro5 img{
+                                                
+                                                        margin-left: 450px;
+                                                    
+                                                    }
+                                                    
+                                                    .pro5 h1{
+                                                
+                                                        margin-top: 5px;
+                                                        margin-left: 580px;
+                                                        font-size: 35px;
+                                                        animation-name: hed;
+                                                        animation-duration: 5s;
+                                                        animation-iteration-count: infinite;
+                                                        color: hotpink;
+                                                        border: 4px solid blue;
+                                                        display: inline-block;
+                                                        border-radius: 4px;
+                                                    }
+                                                
+                                                        @keyframes hed {
+                                                
+                                                            0%{
+                                                
+                                                                border: 4px solid gold;
+                                                                background-color: gold;
+                                                            }
+                                                            
+                                                            40%{
+                                                
+                                                                border: 4px solid rgb(131, 223, 143);
+                                                                background-color:rgba(131, 223, 143, 0.438);
+                                                            }
+                                                
+                                                            80%{
+                                                
+                                                                border: 4px solid rgb(107, 187, 233);
+                                                                background-color: rgba(107, 187, 233, 0.513);
+                                                            }
+                                                
+                                                            100%{
+                                                
+                                                                border: 4px solid rgb(233, 168, 107);
+                                                                background-color: rgba(233, 168, 107, 0.541);
+                                                            }
+                                                 
+                                                            
+                                                        }
+                                                
+                                                
+                                                    .pro5 p{
+                                                
+                                                        font-size: 25px;
+                                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                        color:rgba(40, 4, 218, 0.72);
+                                                    }
+                                                
+                                                    .pro5 a{
+                                                
+                                                        text-decoration: none;
+                                                        margin-top: 5px;
+                                                        margin-left: 500px;
+                                                        font-size: 35px;
+                                                        animation-name: hed;
+                                                        animation-duration: 5s;
+                                                        animation-iteration-count: infinite;
+                                                        color: hotpink;
+                                                        border: 4px solid blue;
+                                                        display: inline-block;
+                                                        border-radius: 4px;
+                                                    }
+                                                    
+                                                    .pro5 a:hover{
+                                                
+                                                        background-color: rgb(71, 42, 165);
+                                                    }                          
+            
+            
+                                                    /* Product 6 */
+            
+            
+                                                    .product6{
+            
+                                                        margin-top: 25px;
+                                                    }
+                                    
+                                                            .pro6{
+                                    
+                                                                /* border: 3px solid red; */
+                                                                height: fit-content;
+                                                                width: fit-content;
+                                                            }
+                                                        
+                                                            .pro6 img{
+                                                        
+                                                                margin-left: 450px;
+                                                            
+                                                            }
+                                                            
+                                                            .pro6 h1{
+                                                        
+                                                                margin-top: 5px;
+                                                                margin-left: 460px;
+                                                                font-size: 35px;
+                                                                animation-name: hed;
+                                                                animation-duration: 5s;
+                                                                animation-iteration-count: infinite;
+                                                                color: hotpink;
+                                                                border: 4px solid blue;
+                                                                display: inline-block;
+                                                                border-radius: 4px;
+                                                            }
+                                                        
+                                                                @keyframes hed {
+                                                        
+                                                                    0%{
+                                                        
+                                                                        border: 4px solid gold;
+                                                                        background-color: gold;
+                                                                    }
+                                                                    
+                                                                    40%{
+                                                        
+                                                                        border: 4px solid rgb(131, 223, 143);
+                                                                        background-color:rgba(131, 223, 143, 0.438);
+                                                                    }
+                                                        
+                                                                    80%{
+                                                        
+                                                                        border: 4px solid rgb(107, 187, 233);
+                                                                        background-color: rgba(107, 187, 233, 0.513);
+                                                                    }
+                                                        
+                                                                    100%{
+                                                        
+                                                                        border: 4px solid rgb(233, 168, 107);
+                                                                        background-color: rgba(233, 168, 107, 0.541);
+                                                                    }
+                                                         
+                                                                    
+                                                                }
+                                                        
+                                                        
+                                                            .pro6 p{
+                                                        
+                                                                font-size: 25px;
+                                                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                color: rgba(40, 4, 218, 0.72);
+                                                            }
+                                                        
+                                                            .pro6 a{
+                                                        
+                                                                text-decoration: none;
+                                                                margin-top: 5px;
+                                                                margin-left: 500px;
+                                                                font-size: 35px;
+                                                                animation-name: hed;
+                                                                animation-duration: 5s;
+                                                                animation-iteration-count: infinite;
+                                                                color: hotpink;
+                                                                border: 4px solid blue;
+                                                                display: inline-block;
+                                                                border-radius: 4px;
+                                                            }
+                                                            
+                                                            .pro6 a:hover{
+                                                        
+                                                                background-color: rgb(71, 42, 165);
+                                                            }                                    
+            
+            
+
+  }                                        
